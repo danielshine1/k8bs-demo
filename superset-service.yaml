@@ -9,4 +9,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8088
-  type: LoadBalancer # Exposes the service externally using a cloud provider's load balancer
+  type: LoadBalancer ## Exposes the service externally using a cloud provider's load balancer
